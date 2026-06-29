@@ -1,0 +1,64 @@
+# ============ 敏感信息 - 绝不提交 ============
+# 环境变量文件（包含 API Key）
+.env
+*.env.local
+*.env.*.local
+
+# ============ IDE 和编辑器 ============
+# VSCode
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# ============ Python ============
+# 字节码文件
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 虚拟环境
+venv/
+env/
+ENV/
+.venv/
+
+# 分发/打包
+dist/
+build/
+*.egg-info/
+
+# ============ 系统文件 ============
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# ============ 项目特定 ============
+# MCP OCR 本地路径配置（包含绝对路径）
+.mcp.json
+.codex/
+
+# Claude Code 本地配置
+.claude/
+
+# 字体文件（可能有版权）
+*.ttf
+
+# 用户数据文件
+*.json
+!requirements.json
+!package.json
+
+# 登录脚本（包含敏感信息）
+login_chaoxing.py
+
+# 截图文件
+*.png
+step*.png

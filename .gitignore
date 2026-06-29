@@ -48,6 +48,9 @@ Desktop.ini
 # Claude Code 本地配置
 .claude/
 
+# 用户运行时数据
+xuexitong-agent/data/
+
 # 字体文件（可能有版权）
 *.ttf
 

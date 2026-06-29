@@ -33,7 +33,7 @@
 ### 1️⃣ 克隆项目
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/xuexitong-agent.git
+git clone https://github.com/hon-gzi/xuexitong-agent.git
 cd xuexitong-agent
 ```
 

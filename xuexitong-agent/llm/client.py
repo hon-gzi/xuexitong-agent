@@ -22,6 +22,11 @@ class LLMClient:
                 "base_url": "https://api-inference.modelscope.cn/v1",
                 "model": "deepseek-ai/DeepSeek-V4-Pro",
             },
+            "agnes": {
+                "api_key": os.getenv("AGNES_API_KEY", ""),
+                "base_url": "https://apihub.agnes-ai.com/v1",
+                "model": "agnes-2.0-flash",
+            },
         }
 
         cfg = configs.get(self.provider, configs["mimo"])

@@ -9,7 +9,7 @@ class LLMClient:
     """LLM调用客户端（支持多平台）"""
 
     def __init__(self):
-        self.provider = os.getenv("LLM_PROVIDER", "mimo")
+        self.provider = os.getenv("LLM_PROVIDER", "agnes")
 
         configs = {
             "mimo": {
